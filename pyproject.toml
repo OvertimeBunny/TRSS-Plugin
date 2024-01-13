@@ -2,7 +2,7 @@
 name = "TRSS-Plugin"
 version = "1.0.0"
 description = "TRSS Yunzai Plugin"
-authors = ["时雨🌌星空 <Time.Rain.Star.Sky@Gmail.com>"]
+authors = ["时雨◎星空 <https://github.com/TimeRainStarSky>"]
 
 [tool.poetry.dependencies]
 python = ">=3.10,<3.12"
@@ -32,11 +32,6 @@ llvmlite = "^0.40.1"
 ruamel-yaml = "^0.17.32"
 
 [[tool.poetry.source]]
-name = "BFSU"
-url = "https://mirrors.bfsu.edu.cn/pypi/web/simple"
-priority = "primary"
-
-[[tool.poetry.source]]
-name = "TUNA"
+name = "tuna"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-priority = "supplemental"
+priority = "primary"
